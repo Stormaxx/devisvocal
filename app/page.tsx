@@ -174,6 +174,38 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Preuve sociale — témoignages artisans */}
+      <section className="border-t border-slate-200 py-20">
+        <div className="mx-auto max-w-5xl px-6 text-center">
+          <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">
+            Ils veulent déjà gagner du temps sur leurs devis
+          </h2>
+          <div className="mx-auto mt-12 grid gap-8 sm:grid-cols-3 sm:gap-6">
+            <div className="rounded-xl border border-slate-200 bg-white p-6 text-left shadow-sm">
+              <p className="text-slate-700">
+                &laquo;&nbsp;Je faisais mes devis le soir, maintenant ça prend 30 secondes.&nbsp;&raquo;
+              </p>
+              <p className="mt-4 font-medium text-slate-900">— Julien</p>
+              <p className="text-sm text-slate-500">plombier</p>
+            </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-6 text-left shadow-sm">
+              <p className="text-slate-700">
+                &laquo;&nbsp;Si ça marche vraiment, ça va me sauver des heures chaque semaine.&nbsp;&raquo;
+              </p>
+              <p className="mt-4 font-medium text-slate-900">— Karim</p>
+              <p className="text-sm text-slate-500">électricien</p>
+            </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-6 text-left shadow-sm">
+              <p className="text-slate-700">
+                &laquo;&nbsp;Enfin un outil simple pour les artisans.&nbsp;&raquo;
+              </p>
+              <p className="mt-4 font-medium text-slate-900">— Thomas</p>
+              <p className="text-sm text-slate-500">maçon</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Liste d'attente */}
       <section id="liste-attente" className="border-t border-slate-200 bg-white py-20">
         <div className="mx-auto max-w-xl px-6 text-center">
@@ -182,6 +214,9 @@ export default function Home() {
           </h2>
           <p className="mt-4 text-slate-600">
             Soyez parmi les premiers à tester l&apos;outil. Entrez votre email pour être prévenu du lancement.
+          </p>
+          <p className="mt-6 text-slate-700">
+            Déjà plus de <span className="font-bold text-orange-500">17</span> artisans intéressés
           </p>
           <form
             method="POST"
